@@ -2,7 +2,7 @@
 - Run `sh helm_installation.sh` to install helm package.
 - Check if helm is installed: `helm version`
 - Run `helm env` to check helm status.
- # image
+![image](https://user-images.githubusercontent.com/76727343/209653191-42be1e5c-3aa9-445a-9762-079947d00169.png)
 
 # How Helm connects to Kubernetes cluster?
 ```
@@ -13,7 +13,8 @@ Later this chart is passed to Helm and then helm connects to K8s API to create K
 
 # Create first Chart
 - helm create knoldusHelm
-- tree myhelmchar
-# Output Image
+- tree knoldusHelm
+![image](https://user-images.githubusercontent.com/76727343/209653328-4384fd40-c119-498d-b994-6ee7c647c1f5.png)
+
 
 -  
