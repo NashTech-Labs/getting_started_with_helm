@@ -5,10 +5,9 @@
 ![image](https://user-images.githubusercontent.com/76727343/209653191-42be1e5c-3aa9-445a-9762-079947d00169.png)
 
 # How Helm connects to Kubernetes cluster?
-```
-Instead of using separate K8s commands for each K8s object, helm encloses K8s objects definition closely into a package called chart.
-Later this chart is passed to Helm and then helm connects to K8s API to create K8s object.
-```
+
+- Instead of using separate K8s commands for each K8s object, helm encloses K8s objects definition closely into a package called chart.
+- Later this chart is passed to Helm and then helm connects to K8s API to create K8s object.
 - It connects to the Kubernetes cluster/host via the config file `~/.kube/config`
 
 # Create first Chart
