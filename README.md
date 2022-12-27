@@ -29,9 +29,9 @@
 - `helm install demochart ./knoldusHelm`
 - Verify using `helm list`
 - To Uninstall `helm uninstall demochart`
-.
-.
-.
-.
-.
+. </br>
+. </br>
+. </br>
+. </br>
+. </br>
 NOTE: This repo is a work in Progress.
